@@ -1,0 +1,6 @@
+intnum1 = int(input('Type an integer number'))
+intnum2 = int(input('Type an integer number'))
+realnum = float(input('Type a real number'))
+print('the first number doubled times half the second is: ', ((intnum1*2)*(intnum2/2)))
+print('the triple of the first number plus the third number is: ',(3*intnum1+realnum))
+print('The third number cubed is: ',(realnum**3))
