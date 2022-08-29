@@ -10,6 +10,8 @@ else:
     if d==0:
         x1 = -b/2*a
         print(x1)
+    elif d<0:
+        print('the equation does not have real roots')
     else:
         x1 = (-b+math.sqrt(d)) / (2*a)
         x2 = (-b-math.sqrt(d)) / (2*a)
