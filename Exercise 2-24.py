@@ -11,11 +11,11 @@ elif option == '*':
 elif option == '/':
     result = a/b
 print('Result= ', result)
-if (result%2) == 0:
+if (result % 2) == 0:
     print('1- the number is even')
 else:
     print('1- The number is odd')
-if result>0:
+if result > 0:
     print('2- The number is positive')
 else:
     print('2- The number is negative')
